@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping List App</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav>
+        <img src='img/logo.jpg' alt="logo.png">
+        <h3>Never Forget Anything Again</h3>
+      </nav>
+      <section>
+        <p>Add Item to Shopping List</p>
+        <div id="add_item" class="section_div">
+          <form>
+            <label for="add_field">Whats is the Item?</label>
+            <input type="text" id="add_field">
+            <button>Add</button>
+          </form>
+        </div>
+        <p>Items You Have Not Bought</p>
+        <div id="to_buy" class="section_div">
+          <ul id="items_to_buy">
+            <li class="edit_mode">
+              <label>Items you added to the list will appear here</label>
+            </li>
+          </ul>
+        </div>
+        <p>Items You Have Bought</p>
+        <div id="bought_items" class="section_div">
+          <ul id="bought_item">
+            <li>
+              <label>Items you have bought will appear here</label>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script type="text/javascript" src="js/main.js"></script>
+</html>

@@ -1,0 +1,104 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+	background: url('../img/background.png');
+	background-size: 37px;
+	width: 100%;
+}
+#wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+
+h3, p {
+	text-shadow: 0px 2px 3px darkgrey;
+} 
+
+p {
+	font-size: 1.5em;
+}
+
+button {
+	height: 29px;
+	font: bold 1.2em Arial, sans-serif;
+	background: #f1f1f1;
+	border: 1px solid;
+	border-radius: 4px;
+	color: #222222;
+	border-color: #cdcdcd;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+/**********************************
+navigation and header
+***********************************/
+nav {
+	text-align: center;
+	width: 100%;
+	margin: 20px auto;
+	font-size: 1.85em;
+	font-weight: bold;
+}
+
+nav img {
+	width: 350px;
+}
+
+nav h1 {
+	margin-bottom: 5px;
+}
+
+/**********************************
+section
+***********************************/
+section {
+	text-align: left;
+}
+
+section p {
+	padding-top: 30px;
+}
+
+.section_div {
+	padding: 15px;
+	width: 100%;
+	text-align: left;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: darkgrey;
+	width: 100%;
+	box-shadow: 0px 2px 3px darkgrey;
+	background-color: #f1f1f1;
+}
+
+section button {
+	float: right;
+	margin-right: 15px;
+}
+
+li {
+	margin: 15px;
+	clear: both;
+}
+
+input[type='text'] {
+	border-style: solid;
+	width: 280px;
+	height: 30px;
+	border-width: 1px;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-size: 1.2em;
+}
+
+input[type='checkbox'] {
+	margin-right: 12px;
+}
+
+#bought_items {
+	color: #b2b200;
+}
